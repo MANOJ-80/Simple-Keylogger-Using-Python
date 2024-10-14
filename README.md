@@ -4,7 +4,7 @@
 
 ## What is a Keylogger?
 
-A keylogger is a type of surveillance software that records every keystroke made on a computer's keyboard. It can capture user inputs including passwords, messages, and other sensitive information. Keyloggers can be used for legitimate purposes, such as monitoring employee activity, but they can also be misused for malicious intent, such as stealing personal information.
+A **keylogger** is a type of malicious software that records every keystroke made on a computer's keyboard. It captures user inputs such as passwords, messages, and other sensitive information. While keyloggers can serve legitimate purposes, like monitoring employee activity, they are often misused for malicious intent, such as stealing personal information.
 
 ![Keylogger Example](keyboard.jpg)
 
