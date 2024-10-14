@@ -33,9 +33,30 @@ This project, **Simple Keylogger in Python**, is designed for educational purpos
 3. The captured keystrokes are saved to a text file (`keylogger.txt`) at regular intervals.
 4. The logging process continues until the user presses the ESC key, which stops the listener.
 
-#### Code Snippet (Logging):
-```python
-def on_press(key):
-    timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
-    key_str = str(key).replace("'", "")
-    text += f"{timestamp} User pressed: {key_str}\n"
+## Requirements
+
+To run this project, you need the following:
+
+- **Python 3.x**
+- **pynput library** (install via pip):
+  ```bash
+  pip install pynput
+  ```
+## How to Run
+1. Clone or download the repository.
+2. Navigate to the project directory.
+3. Run the keylogger script
+   ```bash
+   python3 keylogger.py
+   ```
+   - This will start logging keystrokes until the ESC key is pressed.
+## Conclusion
+This project serves as a learning tool to understand the mechanics of keyloggers. It highlights the importance of cybersecurity practices, such as being aware of software that records user inputs. Always remember to respect privacy and legal boundaries when dealing with such technologies.
+
+**Disclaimer**: The author is not responsible for any misuse or damage caused by the use of this code. Use at your own risk.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+   
+  
